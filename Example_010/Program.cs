@@ -10,7 +10,7 @@ void Show2Digit()
     Console.Write("Введите трехзначное число ");
     int number = Convert.ToInt32(Console.ReadLine());
 
-    int digit2 = (number%100)/10;
+    int digit2 = Math.Abs((number%100)/10);
 
     Console.WriteLine("Вторая цифра введенного трехзначного числа = " + digit2);
 }
