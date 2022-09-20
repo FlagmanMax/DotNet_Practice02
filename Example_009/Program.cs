@@ -17,11 +17,13 @@ void PrintMaxNum()
 
     if (digit1 > digit2)
     {
-        Console.WriteLine("Максимальное число " + digit1);
+        Console.WriteLine("Наибольшее число " + digit1);
+        Console.WriteLine("Наименьшнее число " + digit2);
     }
     else
     {
-        Console.WriteLine("Максимальное число " + digit2);
+        Console.WriteLine("Наибольшее число " + digit2);
+        Console.WriteLine("Наименьшнее число " + digit1);
     }
 }
 
